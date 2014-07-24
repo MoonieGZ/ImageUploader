@@ -1,0 +1,7 @@
+option batch abort
+option confirm on
+open sftp://<user>:<password>@<address>"
+cd <location>
+put %1% 
+close
+exit
